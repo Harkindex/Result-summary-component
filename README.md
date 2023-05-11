@@ -1,2 +1,2 @@
 # Result summary component
- Frontend mentor projrcts
+ Frontend mentor projects
