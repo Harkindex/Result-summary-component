@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #a2a1a1;
+}
+body{
+    font-family: Open Sans;
+    font-size: 18px;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #8888882d;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+}
+/*-------result container--------*/
+.result-container{
+    background: linear-gradient( hsl(228, 45%, 44%),  hsl(228, 68%, 39%));
+    border-radius: 20px;
+    color: white;
+
+}
+.result-container h3{
+    text-align: center;
+    padding: 30px 0 0 0;
+  }
+  .result-container h2{
+      padding: 40px 0 0 0 ;
+      text-align: center;
+      color: white;
+  }
+  .result-container h1{
+      padding: 20px 0 0 0;
+      color: white;
+  }
+  .result-container p{
+      font-size: 14px;
+  }
+  .result-container h5{
+      text-align: center;
+      padding: 10px 0 0 0 ;
+      font-weight: lighter;
+  }
+  .percentage{
+      position: relative;
+      top: 5%;
+      left: 25%;
+      width: 100px;
+      height: 100px;
+      background: linear-gradient( hsl(228, 71%, 34%), hsl(228, 45%, 44%) );
+      border-radius: 50%;
+      padding: 20px;
+      text-align: center;
+  }
+  /*--------SUMMARY--------*/
+  .summary-container{
+      padding: 30px 0 0 35px;
+  }
+  .summary-container h3{
+      color: rgb(15, 13, 86);
+      padding: 0 0 10px 0;
+  }
+  .summary{
+    padding: 0 0 0 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 14px;
+  }
+
+  
+  .rxn{
+      background-color: rgba(171, 83, 83, 0.2);
+      padding: 10px 0 10px 10px;
+      margin: 10px 20px 0 0;
+      border-radius: 10px;
+     
+  }
+  .mem{
+    background-color: rgba(121, 114, 43, 0.2);
+    padding: 10px 0 10px 10px;
+    margin: 10px 20px 0 0;
+    border-radius: 10px;
+  
+} 
+  .ver{
+    background-color: rgba(109, 171, 83, 0.2);
+    padding: 10px 0 10px 10px;
+    margin: 10px 20px 0 0;
+    border-radius: 10px;
+}
+  .vis{
+    background-color: rgba(83, 86, 171, 0.2);
+    padding: 10px 0 10px 10px;
+    margin: 10px 20px 0 0;
+    border-radius: 10px;
+}
+  div .reaction{
+      color: rgb(182, 5, 5);
+   
+  }
+  div .memory{
+      color: rgb(188, 188, 17);
+  }
+  div .verbal{
+      color: rgb(27, 133, 27);
+  }
+  div .visual{
+      color: rgb(0, 0, 172);
+  }
+
+input{
+    padding: 10px 80px 10px 80px;
+    margin: 30px 2px 2px 5px;
+    background-color: rgb(15, 13, 86);
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+/*------------FOOTER-----------*/
+.attribution{ 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 50%; 
+}
+.attribution a{
+    color: hsl(228, 45%, 44%); 
+}
